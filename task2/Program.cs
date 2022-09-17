@@ -13,28 +13,19 @@ Console.Write("Введите третье число: ");
 int numberC = Convert.ToInt32(Console.ReadLine());
 
 if (numberA > numberB)
-{
-    Console.WriteLine($"Максимальное число {numberA}");
-}
-else if (numberA > numberC)
+if (numberA > numberC)
 {
     Console.WriteLine($"Максимальное число {numberA}");
 }
 
 if (numberB > numberA)
-{
-    Console.WriteLine($"Максимальное число {numberB}");
-}
-else if (numberB > numberC)
+if (numberB > numberC)
 {
     Console.WriteLine($"Максимальное число {numberB}");
 }
 
 if (numberC > numberA)
-{
-    Console.WriteLine($"Максимальное число {numberC}");
-}
-else if (numberC > numberB)
+if (numberC > numberB)
 {
     Console.WriteLine($"Максимальное число {numberC}");
 }
