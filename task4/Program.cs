@@ -9,10 +9,8 @@ int number = Convert.ToInt32(Console.ReadLine());
 int count = 1;
 while (count <= number)
 {
-    Console.WriteLine();
-    count = count+1;
+    if (number = number%2)
+    Console.Write($"{number}");
+    count = count + 1; 
 }
- if (number%2 == 0)
- {
-    Console.WriteLine($"{number}");
- }
+
