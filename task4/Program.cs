@@ -7,9 +7,11 @@
 
 Console.Write("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
-int count = 1;
-while (count <= number)
+int i = 1;
+while (i <= number)
 {
-    if (number % 2 == 0)
-    Console.Write($"{number}");
+    if (i % 2 == 0)
+    i = i +1;
+    Console.Write($"{i}");
+   
 }
