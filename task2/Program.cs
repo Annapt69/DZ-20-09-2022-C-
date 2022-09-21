@@ -12,20 +12,17 @@ int numberB = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите третье число: ");
 int numberC = Convert.ToInt32(Console.ReadLine());
 
-if (numberA > numberB)
-if (numberA > numberC)
+if (numberA > numberB && numberA > numberC)
 {
     Console.WriteLine($"Максимальное число {numberA}");
 }
 
-if (numberB > numberA)
-if (numberB > numberC)
+if (numberB > numberA && numberB > numberC)
 {
     Console.WriteLine($"Максимальное число {numberB}");
 }
 
-if (numberC > numberA)
-if (numberC > numberB)
+if (numberC > numberA && numberC > numberB)
 {
     Console.WriteLine($"Максимальное число {numberC}");
 }
